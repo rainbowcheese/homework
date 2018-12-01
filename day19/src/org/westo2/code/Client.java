@@ -1,10 +1,11 @@
-package org.ji23.code;
+package org.westo2.code;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.util.Scanner;
+
 public class Client {
     public static void main(String[] args) {
         try {
@@ -32,7 +33,7 @@ public class Client {
             }).start();
 
             InputStream in = socket.getInputStream();
-            int len=0;
+            int len;
             byte[] bytes = new byte[1024 * 8];
             while((len=in.read(bytes))!=-1){
                 String s = new String(bytes, 0, len, "utf-8");

@@ -1,10 +1,8 @@
-import javax.sound.sampled.Line;
+package org.westo.code;
+
 import java.io.*;
 import java.net.HttpURLConnection;
-import java.net.Socket;
 import java.net.URL;
-import java.security.cert.CertPathValidatorException;
-import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -20,7 +18,7 @@ public class Test1 {
         String str="<img.*src=(.*?)*?>";
         //获得图片正则
         String str1="[a-zA-z]+://[^\\s]*\"";
-        int len=0;
+        int len;
         byte[] bytes = new byte[1024 * 8];
         BufferedReader reader = new BufferedReader(new InputStreamReader(in));
         //把数据读入集合中

@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecc268a5-da4d-46b8-a124-c577811ed115" name="Default Changelist" comment="" />
+    <list default="true" id="ecc268a5-da4d-46b8-a124-c577811ed115" name="Default Changelist" comment="submit4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day19/src/org/westo/code/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day19/src/org/westo/code/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day19/src/org/westo2/code/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/day19/src/org/westo2/code/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day19/src/org/westo2/code/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/day19/src/org/westo2/code/Server.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="419502799">
@@ -42,19 +61,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day19/src/Test1.java">
+        <entry file="file://$PROJECT_DIR$/day19/src/org/westo/code/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="-217">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day19/src/Demo1.java">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day19/src/org/westo2/code/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="275">
+              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day19/src/org/westo2/code/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +106,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="rainbowcheese" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/day19/src/Demo1.java" />
+        <option value="$PROJECT_DIR$/day19/src/Util.java" />
+        <option value="$PROJECT_DIR$/day19/src/Test1.java" />
+        <option value="$PROJECT_DIR$/day19/src/org/westo2/code/Server.java" />
+        <option value="$PROJECT_DIR$/day19/src/org/westo2/code/Client.java" />
+        <option value="$PROJECT_DIR$/day19/src/org/westo/code/Test1.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -77,10 +131,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="307" />
     <option name="y" value="66" />
     <option name="width" value="1346" />
@@ -93,6 +153,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,12 +167,30 @@
               <item name="day19" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day19" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day19" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day19" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,6 +206,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\homework\day19\src\org\westo2\code" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -138,7 +223,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test1">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.westo.code.Test1" />
+      <module name="day19" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Util" />
+      <module name="day19" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -180,6 +275,16 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Util" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Util" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -193,6 +298,11 @@
       <updated>1543135153297</updated>
       <workItem from="1543135157511" duration="285000" />
       <workItem from="1543232040311" duration="1209000" />
+      <workItem from="1543240363820" duration="4973000" />
+      <workItem from="1543277256026" duration="18120000" />
+      <workItem from="1543363969860" duration="17060000" />
+      <workItem from="1543403267708" duration="9019000" />
+      <workItem from="1543579749435" duration="2107000" />
     </task>
     <task id="LOCAL-00001" summary="day19的作业">
       <created>1543135386839</created>
@@ -205,32 +315,33 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1494000" />
+    <option name="totallyTimeSpent" value="52773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.5323129" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.1462585" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15658094" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -247,27 +358,122 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day19的作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="day19的作业" />
+    <MESSAGE value="submit4" />
+    <option name="LAST_COMMIT_MESSAGE" value="submit4" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day19/src/Test1.java">
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo/code/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="52" column="67" lean-forward="true" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo/code/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/src/Util.java" />
+    <entry file="file://$PROJECT_DIR$/day19/src/Demo1.java" />
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo/code/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/src/Demo1.java" />
+    <entry file="file://$PROJECT_DIR$/day19/src/Util.java" />
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo/code/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/src/Demo1.java" />
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo/code/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/src/Demo1.java" />
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo/code/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day19/src/Test1.java">
+    <entry file="file://$PROJECT_DIR$/../subject/代码/day19/src/com/westos/pattern/Singleton4.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/idealfile/myfirstjava.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/src/Demo1.java" />
+    <entry file="file://$PROJECT_DIR$/../Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="229">
+          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day19/src/Demo1.java">
+    <entry file="file://$PROJECT_DIR$/day19/src/Util.java" />
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo/code.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo2/code/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo/code/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/src/org/westo2/code/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

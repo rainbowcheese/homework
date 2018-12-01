@@ -1,4 +1,4 @@
-package org.ji23.code;
+package org.westo2.code;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -28,8 +28,8 @@ public class Server {
     private static void io(Socket accept) {
         try {
             InputStream in = accept.getInputStream();
-            OutputStream out = accept.getOutputStream();
-            int len=0;
+            //OutputStream out = accept.getOutputStream();
+            int len;
             byte[] bytes = new byte[1024 * 8];
             while ((len=in.read(bytes))!=-1){
                 String s = new String(bytes, 0, len,"utf-8");
