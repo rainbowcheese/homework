@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>移除数组元素</title>
+    <script>
+        function remove(arr,item) {
+            var index;
+            arr.forEach(i =>{
+                if(i===item){
+                    index=arr.indexOf(i);
+                    arr.splice(index,index);
+                }
+            });
+            console.log(arr);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

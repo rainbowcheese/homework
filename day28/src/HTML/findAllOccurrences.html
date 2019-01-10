@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查找数组元素的位置</title>
+    <script>
+        function findAllOccurrences(arr, target) {
+            var index=new Array();
+            var x=0;
+            var count=0;
+            arr.forEach(i=>{
+                if(i===target){
+                    index[x++]=count;
+                }
+                count++;
+            });
+            console.log(index);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

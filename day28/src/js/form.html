@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册表单</title>
+    <script type="text/javascript">
+        function tname() {
+            var pattern = /^[a-zA-Z0-9]{2,}$/;
+            if(pattern.test(document.getElementById("name").value)){
+                document.getElementById("sname").innerText="用户名格式正确";
+                document.getElementById("ss").disabled=false;
+            }else {
+                document.getElementById("sname").innerText="格式不正确，至少两个字符";
+                document.getElementById("ss").disabled=true;
+            }
+        }
+        function f() {
+            document.getElementById("send").disabled=true;
+            setTimeout(function () {
+                document.getElementById("send").disabled=false;
+            },60000);
+        }
+        function tpass() {
+            var patt1=/(?=.*[\d]+)(?=.*[a-zA-Z]+)(?=.*[^a-zA-Z0-9]+).{6,}/;
+            var patt2=/^(?=.*[0-9])((?=.*[a-z])[0-9a-z]+|(?=.*[^\w\d])[^\w\d]+)$/ig;
+            if(patt1.test(document.getElementById("pass").value)){
+                document.getElementById("spass").innerText="高强度";
+                document.getElementById("ss").disabled=false;
+            }else if(patt2.test(document.getElementById("pass").value)&&document.getElementById("pass").value.length>3){
+                document.getElementById("spass").innerText="中强度";
+                document.getElementById("ss").disabled=false;
+            }else if(document.getElementById("pass").value.length===0){
+                document.getElementById("spass").innerText="密码不能为空";
+                document.getElementById("ss").disabled=true;
+            }else{
+                document.getElementById("spass").innerText="低强度";
+                document.getElementById("ss").disabled=false;
+            }
+        }
+        function s() {
+            if(document.getElementById("pass").value.length===0|document.getElementById("name").value.length===0|(document.getElementById("pass").value.length===0&&document.getElementById("name").value.length===0)){
+                document.getElementById("ss").disabled=true;
+            }else {
+                window.alert("注册成功！");
+            }
+        }
+    </script>
+</head>
+<body>
+<form method="post">
+    <fieldset>
+        <legend>注册</legend>
+        <input type="text" name="uname" onblur="tname();" id="name">
+        <span id="sname"></span>
+        <br>
+        <input type="password" name="password" id="pass" onblur="tpass()">
+        <span id="spass"></span>
+        <br>
+        <input type="button" value="短信发送" name="send" id="send" onclick="f();">
+        <br>
+        <input type="checkbox" name="1" disabled checked>同意许可协议
+        <br>
+        <input type="submit" value="注册" onclick="s()" id="ss">
+        <input type="reset" value="重置">
+    </fieldset>
+</form>
+</body>
+</html>
